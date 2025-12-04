@@ -1,8 +1,4 @@
-/* ============================================================
-   FINAL COMPLETE App.jsx
-   Premium UI • Dark Mode • Sidebar Animations • Kanban Board
-   Timeline • Resources • Full Dashboard • Slideshow Landing
-   ============================================================ */
+
 
 import { useState, useEffect } from "react";
 import {
@@ -15,8 +11,7 @@ import {
 
 
 /* ============================================================
-   🌙 DARK MODE THEME HANDLER
-   ============================================================ */
+    DARK MODE THEME HANDLER */
 function useDarkMode() {
   const [dark, setDark] = useState(
     localStorage.getItem("theme") === "dark"
@@ -37,9 +32,9 @@ function useDarkMode() {
 
 
 
-/* ============================================================
-   🎨 LANDING PAGE WITH SLIDESHOW + ANIMATIONS
-   ============================================================ */
+/* ========
+    LANDING PAGE WITH SLIDESHOW + ANIMATIONS
+ */
 function Home() {
   const slides = [
     {
@@ -99,8 +94,7 @@ function Home() {
 
 
 /* ============================================================
-   🔐 LOGIN PAGE
-   ============================================================ */
+    LOGIN PAGE */
 function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -169,9 +163,9 @@ function Login() {
 
 
 
-/* ============================================================
-   📝 REGISTER PAGE
-   ============================================================ */
+/* ====
+    REGISTER PAGE
+   ======== */
 function Register() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -246,7 +240,7 @@ function Register() {
 
 
 /* ============================================================
-   🗂️ KANBAN BOARD PAGE
+    KANBAN BOARD PAGE
    ============================================================ */
 function Kanban() {
   return (
@@ -285,7 +279,7 @@ function Kanban() {
 
 
 /* ============================================================
-   🕒 TIMELINE PAGE
+    TIMELINE PAGE
    ============================================================ */
 function Timeline() {
   return (
@@ -324,7 +318,7 @@ function Timeline() {
 
 
 /* ============================================================
-   📘 RESOURCES PAGE
+    RESOURCES PAGE
    ============================================================ */
 function Resources() {
   return (
@@ -353,7 +347,7 @@ function Resources() {
 }
 
 /* ============================================================
-   👤 PROFILE PAGE (NAME, QUALIFICATION, EDUCATION, RESUME, ETC.)
+    PROFILE PAGE (NAME, QUALIFICATION, EDUCATION, RESUME, ETC.)
    ============================================================ */
 function Profile() {
   const [fullName, setFullName] = useState("");
@@ -433,7 +427,7 @@ function Profile() {
 
 
 /* ============================================================
-   📊 DASHBOARD (COLOURFUL SUMMARY)
+    DASHBOARD (COLOURFUL SUMMARY)
    ============================================================ */
 function Dashboard() {
   const [stats, setStats] = useState({
@@ -525,7 +519,7 @@ function Dashboard() {
 
 
 /* ============================================================
-   🧭 MAIN APP SHELL WITH PREMIUM SIDEBAR + DARK MODE
+   MAIN APP SHELL WITH PREMIUM SIDEBAR + DARK MODE
    ============================================================ */
 function AppShell() {
   const [dark, setDark] = useDarkMode();
@@ -636,7 +630,7 @@ function AppShell() {
 
 
 /* ============================================================
-   ⭐ EXPORT
+    EXPORT
    ============================================================ */
 export default function App() {
   return (
