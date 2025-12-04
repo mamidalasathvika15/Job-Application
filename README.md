@@ -5,7 +5,7 @@ You can directly paste this as **README.md** in your GitHub repo.
 
 ---
 
-# 📌 Scalable Web App with Authentication & Dashboard
+#  Scalable Web App with Authentication & Dashboard
 
 ### **Frontend + Backend Assignment (React + Node.js + JWT + CRUD)**
 
@@ -14,42 +14,42 @@ This project includes a modern React frontend, a secure backend built with Node.
 
 ---
 
-# 🌟 Features Overview
+#  Features Overview
 
-## 🔥 1. Frontend (Primary Focus)
+##  1. Frontend (Primary Focus)
 
 Built using **React.js** with a clean, modern UI.
 
-* ⚛️ **React.js** (functional components + hooks)
-* 🎨 **TailwindCSS** for responsive styling
-* 🔐 **Protected Routes** using React Router + JWT
-* ✔️ **Form Validation** (client & server-based errors)
-* 📱 Fully Responsive UI (desktop + mobile)
-* ⚡ Interactive Dashboard with CRUD
+*  **React.js** (functional components + hooks)
+*  **TailwindCSS** for responsive styling
+*  **Protected Routes** using React Router + JWT
+*  **Form Validation** (client & server-based errors)
+*  Fully Responsive UI (desktop + mobile)
+*  Interactive Dashboard with CRUD
 
 ---
 
-## 🔥 2. Backend (Supportive)
+##  2. Backend (Supportive)
 
 Backend developed using **Node.js + Express**.
 
-* 🔐 **JWT Authentication** (Login/Signup)
-* 🔒 Password hashing using **bcrypt**
-* 🗂️ CRUD APIs for a sample entity (Tasks/Notes/Posts)
-* 👤 User profile fetch & update APIs
-* 🛢️ MongoDB (via Mongoose) as the database
-* ⚙️ Clean API structure with middleware + error handling
+*  **JWT Authentication** (Login/Signup)
+*  Password hashing using **bcrypt**
+*  CRUD APIs for a sample entity (Tasks/Notes/Posts)
+*  User profile fetch & update APIs
+*  MongoDB (via Mongoose) as the database
+*  Clean API structure with middleware + error handling
 
 ---
 
-## 🔥 3. Dashboard Features
+##  3. Dashboard Features
 
-* 👤 View user profile (fetched from backend)
-* ✏️ Update profile info
-* 📝 Create / Read / Update / Delete **Tasks (sample entity)**
-* 🔍 Search & filter UI
-* 🚪 Logout flow
-* 🧭 Smooth navigation & route protection
+*  View user profile (fetched from backend)
+*  Update profile info
+*  Create / Read / Update / Delete **Tasks (sample entity)**
+*  Search & filter UI
+*  Logout flow
+*  Smooth navigation & route protection
 
 ---
 
@@ -77,7 +77,7 @@ Backend developed using **Node.js + Express**.
 
 ---
 
-# 📁 Folder Structure
+#  Folder Structure
 
 ```bash
 root/
@@ -103,7 +103,7 @@ root/
 
 ---
 
-# 🚀 How to Run This Project Locally
+#  How to Run This Project Locally
 
 ### **1️⃣ Clone the Repository**
 
@@ -162,7 +162,7 @@ The app will run at:
 
 ---
 
-# 📦 API Documentation
+#  API Documentation
 
 A **Postman Collection** is included in the repository:
 
@@ -180,7 +180,7 @@ Contains:
 
 ---
 
-# 📊 Sample Entity (CRUD)
+#  Sample Entity (CRUD)
 
 The sample entity used in this project is:
 
@@ -202,7 +202,7 @@ These tasks are displayed in the dashboard with:
 
 ---
 
-# 🧱 Scalability Notes (Production Level)
+#  Scalability Notes (Production Level)
 
 To scale this project for production:
 
@@ -228,7 +228,7 @@ To scale this project for production:
 
 ---
 
-# 🧪 Testing
+#  Testing
 
 * Manual testing using Postman
 * Client-side validation
